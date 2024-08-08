@@ -1,0 +1,16 @@
+.sections-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  flex: 1;
+}
+
+.section {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 100%;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
